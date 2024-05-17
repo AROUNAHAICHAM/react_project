@@ -1,0 +1,154 @@
+/*interface Task {
+  id: string;
+  title: string;
+  completed: boolean;
+}
+// TaskItem.tsx
+import React from 'react';
+
+interface TaskItemProps {
+  task: Task;
+}
+
+const TaskItem: React.FC<TaskItemProps> = ({ task }) => {
+  return (
+    <div>
+      <input type="checkbox" checked={task.completed} />
+      <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
+        {task.title}
+      </span>
+    </div>
+  );
+};
+
+export default TaskItem;
+// TaskList.tsx
+import React from 'react';
+import TaskItem from './TaskItem';
+
+interface TaskListProps {
+  tasks: Task[];
+}
+
+const TaskList: React.FC<TaskListProps> = ({ tasks }) => {
+  return (
+    <div>
+      <h2>Liste de tâches</h2>
+      {tasks.map((task) => (
+        <TaskItem key={task.id} task={task} />
+      ))}
+    </div>
+  );
+};
+
+export default TaskList;*/
+
+
+
+/*------------------------------------------------------------------*/
+/*import Navbar from './components/navBar';
+import Footer from './components/footer';
+import CategoryJobs from './components/categoryJobs';
+import OtherJobsGrid from './components/otherJob';
+import React, { useState, FormEvent, ChangeEvent } from 'react';
+import './App.css';
+
+const App: React.FC = () => {
+  const [nom, setNom] = useState<string>('');
+  const [prenom, setPrenom] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [nomCompletAffiche, setNomCompletAffiche] = useState<string>('');
+
+  const handleNomChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setNom(e.target.value);
+  };
+
+  const handlePrenomChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setPrenom(e.target.value);
+  };
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Logique de validation du formulaire ici
+    setIsSubmitted(true);
+    setNomCompletAffiche(`${nom} ${prenom}`);
+    setNom(''); 
+    setPrenom('')
+
+  };
+
+  return (
+    <>
+      <div className=' w-50  card'>
+        <div className='customFormTitle card-header bg-secondary text-white'>
+          <h3>Formulaire d'enregistrement </h3>
+        </div>
+        <div className='ml-3  card-body'>
+          <form action="" onSubmit={handleSubmit}>
+            <div className='mb-3 '>
+              <label htmlFor="" className='me-5'>Nom :</label>
+              <input type="text" name="name" id="name" className='' value={nom} onChange={handleNomChange} />
+            </div>
+            <div className='mb-3'>
+              <label htmlFor="" className='me-4'>Prenom :</label>
+              <input type="text" name="surname" id="surname" value={prenom} onChange={handlePrenomChange} />
+            </div>
+            <div className=''>
+              <input type="submit" value="Soumettre " className='me-3 btn btn-primary' />
+            </div>
+          </form>
+        </div>
+        <div className='card-footer'>
+          <p>Votre nom complet est : <span className='text-success'>{isSubmitted ? `${nomCompletAffiche} ` : ''}</span></p>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default App;
+
+
+  <Navbar></Navbar>
+      <div className='div2'>
+        <div className='div1'>
+          <h1>Discover <br/> more than <br /> <span className='text-primary'>5000+ jobs</span></h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus  </p>
+         
+         <div className='bg-light searchJob'>
+          <form className="d-flex">
+              <div className="col-auto me-2">
+                <select className="form-select" aria-label="Default select example">
+                  <option selected>country</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div className="col-auto me-2">
+                <input type="search" className="form-control" id="search" placeholder="Job tile or keyword" />
+              </div>
+              <div className="col-auto">
+                <button type="submit" className="btn btn-primary mb-3">Search my jod</button>
+              </div>
+
+            </form>
+         </div>
+        </div>
+      </div>
+
+      <div className='partenaire'>
+
+      </div>
+
+      <CategoryJobs></CategoryJobs>
+
+      <div className='otherGrid1'>
+        <div className='presentation2'>
+
+        </div>
+      </div>
+
+      <OtherJobsGrid></OtherJobsGrid>
+      <Footer></Footer>
+*/

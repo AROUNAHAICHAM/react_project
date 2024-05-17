@@ -1,0 +1,69 @@
+.div1{
+    width: 52%;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+}
+.div2{
+    border-bottom-right-radius: 150px;
+    background-color: rgba(230, 228, 228, 0.445);
+   
+}
+
+.searchJob{
+    padding-top:3%;
+    padding-left: 3%;
+    width: 85%;
+}
+
+.otherGrid1{
+    height: 70vh;
+    margin: 5%;
+    background-color: rgba(0, 0, 255, 0.651);
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.presentation2{
+    height: 100%;
+    margin: 5%;
+    
+}
+
+.partenaire{
+    height: 15vh;
+    background-color: rgba(240, 248, 255, 0.603);
+    margin-bottom: 2%;
+}
+
+.customForm{
+    border: 1px solid rgba(196, 196, 196, 0.514);
+    margin-top: 10%;
+    padding: 0 ;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 150px;
+   
+}
+.customFormTitle{
+    text-align: center;
+    background-color: rgba(107, 112, 116, 0.884);
+    
+}
+.customFormBody{
+    margin: 0;
+}
+form{
+    margin: auto;
+}
+
+input:focus {
+    border: 0; /* Supprime la bordure lorsque l'élément est en focus */
+}
+
+span{
+    border: 1px solid rgb(122, 118, 118);
+    padding: 0.5%;
+    font-weight: bold;
+    font-style: italic;
+}
